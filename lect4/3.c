@@ -4,7 +4,7 @@ int main() {
     int choice;
     float amount, converted;
 
-    // Display currency options
+
     printf("Currency Converter (from USD):\n");
     printf("1. Convert to Euro (EUR)\n");
     printf("2. Convert to British Pound (GBP)\n");
@@ -12,17 +12,17 @@ int main() {
     printf("4. Convert to Japanese Yen (JPY)\n");
     printf("5. Convert to Canadian Dollar (CAD)\n");
 
-    // Get user choice
+
     printf("Enter your choice (1-5): ");
     scanf("%d", &choice);
 
-    // Get amount in USD
+
     printf("Enter amount in USD: ");
     scanf("%f", &amount);
 
     switch (choice) {
         case 1:
-            converted = amount * 0.85;  // Example rate: 1 USD = 0.85 EUR
+            converted = amount * 0.85;  
             printf("EUR: %.2f\n", converted);
             break;
         case 2:

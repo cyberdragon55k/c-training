@@ -8,7 +8,7 @@ int main(){
     printf("Enter the attendence:");
     scanf("%d",&atten);
 
-    // if both attendence and marks are above 75% then A+ will be given
+    
     if(marks>=75 && atten >=75){
         printf("A+");
     }
